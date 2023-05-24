@@ -1,0 +1,105 @@
+body{
+   background-color: rgb(227, 240, 116);
+}
+header{
+    text-align: center;
+}
+h1{
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+.principal{
+    
+    background-color: white;
+    width: 500px;
+    height: 425px;
+    margin: auto;
+    border-radius: 50px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.233);
+}
+.dados{
+    padding-top: 5px;
+    text-align: center;
+}
+.msg{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 8pt;
+    padding-top: 10px;
+    text-align: center;
+}
+.botao{
+    height: 30px;
+    width: 100px;
+    font-size: 11pt;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.13);
+    border-color: unset;
+    border-radius: 5px;
+}
+.cod_cor{
+    font-size: 13pt;
+}
+.copiar_texto{
+    height: 30px;
+    font-size: 10pt;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.151);
+    border-color: unset;
+    border-radius: 5px;
+    width: 100px;
+
+}
+.cor{
+    border-color: unset;
+    box-shadow: 5px 5px 10px rgba(54, 54, 54, 0.226);
+    border-radius: 5px;
+    border-width: 1.5px;
+    width: 90px;
+    height: 90px;
+    background-color: rgb();
+}
+.resultado{
+    
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12pt;
+    padding-left: 10px;
+}
+.caixa_de_cor{
+
+    text-align: center;
+    
+}
+.colorir{
+    padding-top: 10px;
+    text-align: center;
+}
+.titulo{
+    font-family: 'Courier New', Courier, monospace;
+}
+.colorir_botao{
+    font-size: 8pt;
+    font-family: 
+    'Courier New', Courier, monospace;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.151);
+    border-color: unset;
+    border-radius: 5px;
+    height: 30px;
+    width: 100px;
+    
+}
+.limpar{
+    height: 30px;
+    font-size: 8pt;
+    font-family: 'Courier New', Courier, monospace;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.158);
+    border-color: unset;
+    border-radius: 5px;
+    width: 100px;
+}
+footer{
+    font-family:'Courier New', Courier, monospace;
+    font-style: italic;
+    padding-top: 40px;
+    text-align: center;
+}

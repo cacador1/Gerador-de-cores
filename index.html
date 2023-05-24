@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon-32x32.png" type="image/x-icon">
+    <title>Gerador de Cores</title>
+</head>
+<body id="fundo">
+    <!--Título-->
+    <header>
+        <h1>
+            Gerador de Cores
+        </h1>
+    </header>
+    <!--Conteúdo da página-->
+    <section class="principal" id="principal">
+        
+        <!--Div da instrução sobre como usar o gerador de cor-->
+        <div class="msg" id="msg">
+
+            <h2>Aperte no botão abaixo para gerar uma cor &#128516;</h2>
+
+        </div>
+        <!--Div do botão de gerar cor-->
+        <div class="dados" id="dados">
+
+            <!--Botão de gerar cor-->
+            <input type="button" id="botao" class="botao" value="Gerar Cor" onclick="gerar_cor()">
+
+        </div>
+
+        <!--Div do conteúdo do sistema com todas as funcionlidades-->
+
+        <div class="resultado" id="resultado">
+
+            <!--Parágrafo onde sera mostrada o código da cor em formato rgb-->
+
+            <h3 id="cod_cor" class="cod_cor">
+                <strong>Código da cor: 0, 0, 0</strong>
+            </h3>
+
+            <!--Botão de copiar a cor pro clipboard-->
+            <div class="copiar_texto_botao">
+                <button id="copiar_texto" onclick="copiartexto()" class="copiar_texto">Copiar cor</button>
+            </div>
+            
+            <!--"Caixa de cor", onde será mostrada a cor gerada-->
+            <div class="caixa_de_cor">
+                <h3 class="titulo" id ="titulo"> Cor:</h3>
+
+                <input type="button" class="cor" id="cor"></p>
+            </div>
+            <!--Div com as funcionalidades de colorir o fundo, para ter uma melhor ideia da cor, e a opção de limpar o fundo, voltando assim para a cor padrão do site-->
+            <div class="colorir" id="colorir">
+                <p><input type="button" value="Colorir fundo" id="colorir_botao" class="colorir_botao" onclick="colorir_fundo()">  
+                    
+                <input type="button" value="Limpar fundo" class="limpar" id="limpar" onclick="limpar_fundo()"></p>
+            </div>
+            
+        
+        </div>
+    </section>
+
+    <!--Rodapé-->
+
+    <footer> &copy; Gabriel Caçador</footer>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
